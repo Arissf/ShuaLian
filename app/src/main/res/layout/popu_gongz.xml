@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:background="@drawable/shap_bai10_bai"
+        android:gravity="center"
+        android:layout_height="300dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgse"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/weixinzhif"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgse"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_33"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:text="公众支付"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgse1"
+                android:layout_width="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="60dp"
+                android:background="@mipmap/shualianr"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_33"
+                android:textSize="18sp"
+                android:layout_below="@+id/imgse1"
+                android:text="刷脸支付"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_shan"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/image_jiax"/>
+
+
+</LinearLayout>

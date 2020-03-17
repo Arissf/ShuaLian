@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/dp_0.5"
+                android:left="@dimen/dp_0.5"
+                android:right="@dimen/dp_0.5"
+                android:top="@dimen/dp_0.5" />
+            <solid android:color="#0DCCCCCC" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/dp_0.5"
+                android:left="@dimen/dp_0.5"
+                android:right="@dimen/dp_0.5"
+                android:top="@dimen/dp_0.5" />
+            <solid android:color="#10CCCCCC" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/dp_0.5"
+                android:left="@dimen/dp_0.5"
+                android:right="@dimen/dp_0.5"
+                android:top="@dimen/dp_0.5" />
+            <solid android:color="#15CCCCCC" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/dp_0.5"
+                android:left="@dimen/dp_0.5"
+                android:right="@dimen/dp_0.5"
+                android:top="@dimen/dp_0.5" />
+            <solid android:color="#20CCCCCC" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/dp_0.5"
+                android:left="@dimen/dp_0.5"
+                android:right="@dimen/dp_0.5"
+                android:top="@dimen/dp_0.5" />
+            <solid android:color="#25CCCCCC" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#F3F8FE" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+</layer-list>
+

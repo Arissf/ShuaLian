@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shap_bai10_bai"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgse"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:textSize="24sp"
+            android:text="$100.25"/>
+
+
+       <ImageView
+           android:id="@+id/im_sxing"
+           android:layout_width="225dp"
+           android:layout_height="225dp"
+           android:layout_marginTop="20dp"
+           android:background="@mipmap/ic_launcher"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgse"
+        android:textColor="#666666"
+        android:layout_marginTop="7dp"
+        android:textSize="18sp"
+        android:text="公众支付"/>
+
+
+    <LinearLayout
+        android:id="@+id/linqih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/shualianr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgse"
+            android:textColor="#09BB07"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="切换刷脸支付"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imgse"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_shan"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/image_jiax"/>
+
+</LinearLayout>
